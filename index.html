@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav><!-- switch button    -->
+        <div class="switches-container">
+            <input type="radio" id="switchLeft" name="switchPlan" value="Left" checked="checked" onchange="toggleTheme()" />
+            <input type="radio" id="switchRight" name="switchPlan" value="Right" onchange="toggleTheme()" />
+            <label for="switchLeft">Light</label>
+            <label for="switchRight">Dark</label>
+            <div class="switch-wrapper">
+                <div class="switch">
+                    <div>Light</div>
+                    <div>Dark</div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Theme Switcher</h1>
+        <p>Find source code in github @sinigers</p>
+        <button id="switch">Button</button>
+        <!-- <button id="switch" onclick="toggleTheme()">Button</button> -->
+    </div>
+
+ 
+    <script src="scripts.js"></script>
+</body>
+
+</html>
